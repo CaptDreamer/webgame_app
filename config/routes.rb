@@ -1,4 +1,7 @@
 WebgameApp::Application.routes.draw do
+  root to: 'map#map'
+
+  get '/system/:id', to: 'systems#show', as: 'system'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

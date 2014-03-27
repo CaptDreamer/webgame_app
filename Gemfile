@@ -4,7 +4,7 @@ ruby '2.1.1'
 
 gem 'rails', '>= 4.0.4'
 gem 'bootstrap-sass', '~> 3.1.1'
-gem 'bcrypt-ruby', '~> 3.1.5'
+gem 'bcrypt', '~> 3.1.5'
 # gem 'will_paginate', '3.0.4'
 gem 'will_paginate-bootstrap'
 gem 'holder_rails'
